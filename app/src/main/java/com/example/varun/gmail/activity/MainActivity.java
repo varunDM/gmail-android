@@ -1,4 +1,4 @@
-package com.example.varun.gmail.adapter;
+package com.example.varun.gmail.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
