@@ -4,6 +4,7 @@ import com.example.varun.gmail.model.Message;
 
 import java.util.List;
 
+import retrofit2.Call;
 import retrofit2.http.GET;
 
 /**
@@ -12,5 +13,5 @@ import retrofit2.http.GET;
 
 public interface ApiInterface {
     @GET("inbox.json")
-    retrofit2.Call<List<Message>> getInbox();
+    Call<List<Message>> getInbox();
 }

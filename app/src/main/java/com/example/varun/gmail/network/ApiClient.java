@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class ApiClient {
-    public static final String BASE_URL = "https://api.androidhive.info/json/inbox.json";
+    public static final String BASE_URL = "https://api.androidhive.info/json/";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient() {
